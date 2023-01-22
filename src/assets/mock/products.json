@@ -1,23 +1,117 @@
 [
 {
-    "image":"assets/images/gallery-1.jpg",
-    "name" : "Police of the city",
+    "image":"assets/images/shop-products/Divided.jpg",
+    "name" : "Divided Majesty",
     "category" : "Abstract",
-    "description" : "fdfsdgfsflsksdkgjsdkjgkjgksjdkgjskjgksdjgkjsdkgjsdkjgksdjgksdjgksdjgksdjgks",
-    "price" : " 29.00"
+    "description" : "Divided Majesty: Duality of Snowcapped Peaks Matte Canvas Print| 20' by 24' ",
+    "price" : " GHC 150.00"
 
 
 },
 
 {
-    "image":"assets/images/gallery-2.jpg",
-    "name" : "Police of the city",
+    "image":"assets/images/shop-products/concealed.jpg",
+    "name" : "Concealed Elegance",
     "category" : "Abstract",
-    "description" : "fdfsdgfsflsksdkgjsdkjgkjgksjdkgjskjgksdjgkjsdkgjsdkjgksdjgksdjgksdjgksdjgks",
-    "price" : " 29.00"
+    "description" : "Concealed Elegance Matte Canavs print.| 20' by 24' ",
+    "price" : " GHC 150.00"
+
+
+},
+
+{
+    "image":"assets/images/shop-products/Intertwined.jpg",
+    "name" : "Intertwined Harmony",
+    "category" : "Abstract",
+    "description" : "Intertwined Harmony Matte Canvas Print| 20' by 24' ",
+    "price" : " GHC 150.00"
+
+
+},
+
+{
+    "image":"assets/images/shop-products/Orange.jpg",
+    "name" : "Orange Blossom Bliss ",
+    "category" : "Abstract",
+    "description" : "Orange Blossom Bliss Matte Canvas Print| 20' by 24' ",
+    "price" : " GHC 150.00 "
+
+
+},
+
+{
+    "image":"assets/images/shop-products/hercules.jpg",
+    "name" : "Hercules- A symbol of strength ",
+    "category" : "Abstract",
+    "description" : "|Hercules| A symbol of strength - Matte Canvas Print | 20' by 24' ",
+    "price" : " GHC 150.00 "
+
+
+},
+
+{
+    "image":"assets/images/shop-products/cloud.jpg",
+    "name" : "Cloud 9 | The hammock ambience ",
+    "category" : "Abstract",
+    "description" : "Cloud 9 | The hammock ambience| 20' by 24' ",
+    "price" : " GHC 150.00 "
+
+
+},
+{
+    "image":"assets/images/shop-products/chaos.jpg",
+    "name" : "Chaos or Beauty ",
+    "category" : "Abstract",
+    "description" : "Chaos or Beauty - Matte Canvas Print| 20' by 24' ",
+    "price" : " GHC 150.00 "
+
+
+}, 
+
+{
+    "image":"assets/images/shop-products/zues.jpg",
+    "name" : "Power of Zeus ",
+    "category" : "Abstract",
+    "description" : "Power of Zeus : The mind is the Greatest Asset- Matte Canvas Print| 20' by 24' ",
+    "price" : " GHC 150.00 "
+
+
+}, 
+{
+    "image":"assets/images/shop-products/unspoken.jpg",
+    "name" : "Unspoken Plea ",
+    "category" : "Abstract",
+    "description" : "Unspoken Plea : The worship of silence - Matte Canvas Print| 20' by 24' ",
+    "price" : " GHC 150.00 "
+
+
+}, 
+{
+    "image":"assets/images/shop-products/sinking.jpg",
+    "name" : "Sinking Dreams ",
+    "category" : "Abstract",
+    "description" : "Sinking Dreams : The cluster of dark thoughts - Matte Canvas Print| 20' by 24' ",
+    "price" : " GHC 150.00 "
+
+
+}, 
+
+{
+    "image":"assets/images/shop-products/cube.jpeg",
+    "name" : "Rubik's Glee ",
+    "category" : "Abstract",
+    "description" : "Rubik's Glee - Matte Canvas Print| 20' by 24' ",
+    "price" : " GHC 150.00 "
+
+
+},
+{
+    "image":"assets/images/shop-products/city.jpeg",
+    "name" : "Chrome City ",
+    "category" : "Abstract",
+    "description" : "Chrome City : Matte Canvas Print| 20' by 24' ",
+    "price" : " GHC 150.00 "
 
 
 }
-
-
 ]
