@@ -1,0 +1,133 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "TANDGSTORE": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/tandgstore",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss",
+              "src/assets/css/plugins/linea.css",
+              "src/assets/css/plugins/flexslider.css", 
+              "src/assets/fonts/all.min.css",
+              "src/assets/css/plugins/lightcase.css",
+              "src/assets/css/plugins/slicknav.min.css",
+              "src/assets/css/plugins/animate.min.css",
+              "src/assets/css/plugins/bootstrap.min.css",
+              "src/assets/css/plugins/cubeportfolio.min.css",
+              "src/assets/css/main.css",
+            ],
+            "scripts": [
+             "src/assets/js/plugins/jquery-1.12.4.min.js",
+             "src/assets/js/plugins/modernizr.js",
+             "src/assets/js/plugins/jquery.appear.js",
+             "src/assets/js/plugins/lettering.js",
+             "src/assets/js/plugins/textillate.js",
+             "src/assets/js/plugins/wow.js",
+             "src/assets/js/plugins/jarallax.js",
+             "src/assets/js/plugins/lightcase.js",
+             "src/assets/js/plugins/skills-bar.js",
+             "src/assets/js/plugins/slick-nav.js",
+             "src/assets/js/plugins/flexslider.js",
+             "src/assets/js/plugins/images-loaded.js",
+             "src/assets/js/plugins/isotope.js",
+             "src/assets/js/plugins/jquery.cubeportfolio.min.js",
+             "src/assets/js/main.js"
+              
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "TANDGSTORE:build:production"
+            },
+            "development": {
+              "browserTarget": "TANDGSTORE:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "TANDGSTORE:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  }
+}

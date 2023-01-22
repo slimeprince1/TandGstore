@@ -1,0 +1,23 @@
+[
+{
+    "image":"assets/images/gallery-1.jpg",
+    "name" : "Police of the city",
+    "category" : "Abstract",
+    "description" : "fdfsdgfsflsksdkgjsdkjgkjgksjdkgjskjgksdjgkjsdkgjsdkjgksdjgksdjgksdjgksdjgks",
+    "price" : " 29.00"
+
+
+},
+
+{
+    "image":"assets/images/gallery-2.jpg",
+    "name" : "Police of the city",
+    "category" : "Abstract",
+    "description" : "fdfsdgfsflsksdkgjsdkjgkjgksjdkgjskjgksdjgkjsdkgjsdkjgksdjgksdjgksdjgksdjgks",
+    "price" : " 29.00"
+
+
+}
+
+
+]
