@@ -44,6 +44,7 @@ const appRoute: Routes = [
   {path:'contact', component:ContactComponent},
   {path:'portfolio', component:HomepageComponent},
   {path:'shop',component:ProductListingComponent},
+  {path:'products/:id',component:ProductDetailsComponent},
   {path:'random',component:RandomStreetComponent},
   {path:'melanin',component:MellaninComponent},
   {path:'tangled',component:TangledComponent},
@@ -55,7 +56,7 @@ const appRoute: Routes = [
   {path:'mono',component:MonochromeLabourComponent},
   {path:'rawlings',component:RandomStreetComponent},
 
-
+  {path:'checkout',component:CheckoutOrderComponent},
 ]
 
 @NgModule({

@@ -1,116 +1,142 @@
 [
 {
+    "id": 1,
     "image":"assets/images/shop-products/Divided.jpg",
     "name" : "Divided Majesty",
     "category" : "Abstract",
     "description" : "Divided Majesty: Duality of Snowcapped Peaks Matte Canvas Print| 20' by 24' ",
-    "price" : " GHC 150.00"
+    "price" : " GHC 150.00",
+    "largeDescription":"Divided Majesty is a striking and thought-provoking painting that explores the theme of duality and contrasting elements. The painting is divided into two distinct halves, each with its own unique characteristics and symbolism. On one side, there is a powerful and regal lion, depicted in warm, rich colors and with a majestic bearing. On the other side, there is a broken and crumbling cityscape, rendered in cool, muted tones and with a sense of decay and destruction. The division between the two halves is stark and creates a strong visual tension. The painting is a commentary on the dual nature of power, showing both its strength and fragility. Overall, it is a powerful and evocative work that will leave a lasting impression on the viewer"
 
 
 },
 
 {
+    "id": 2,
     "image":"assets/images/shop-products/concealed.jpg",
     "name" : "Concealed Elegance",
     "category" : "Abstract",
     "description" : "Concealed Elegance Matte Canavs print.| 20' by 24' ",
-    "price" : " GHC 150.00"
-
+    "price" : " GHC 150.00",
+    "largeDescription": "Concealed Elegance is a striking and mysterious painting that exudes a sense of intrigue and refinement. The painting depicts a woman, her face obscured by a veil or a hood, dressed in elegant and refined clothing. The colors used in the painting are rich and luxurious, with deep jewel tones that draw the viewer's eye. The brushstrokes are confident and precise, giving the painting a sense of refinement. The use of the veil or hood to conceal the woman's face adds a sense of mystery to the painting, leaving the viewer wondering about the woman's identity and story. The title Concealed Elegance perfectly encapsulates the sense of refinement and mystery that the painting conveys. It would be a perfect addition to any room in need of a touch of elegance and intrigue"
 
 },
 
 {
+    "id": 3,
     "image":"assets/images/shop-products/Intertwined.jpg",
     "name" : "Intertwined Harmony",
     "category" : "Abstract",
     "description" : "Intertwined Harmony Matte Canvas Print| 20' by 24' ",
-    "price" : " GHC 150.00"
+    "price" : " GHC 150.00",
+    "largeDescription": "Intertwined Harmonyis a beautiful and serene painting that captures the essence of connection and unity. The painting depicts a scene of two figures, a man and a woman, intertwined in a loving embrace. The figures are rendered in soft, warm colors and are surrounded by a lush, verdant landscape. The brushstrokes are loose and flowing, giving the painting a sense of movement and energy. The scene is bathed in a golden light, creating a feeling of warmth and intimacy. The title Intertwined Harmony perfectly encapsulates the sense of connection and unity that the painting conveys. It would be a perfect addition to any room in need of a touch of romance and harmony"
 
 
 },
 
 {
+    "id": 4,
     "image":"assets/images/shop-products/Orange.jpg",
     "name" : "Orange Blossom Bliss ",
     "category" : "Abstract",
     "description" : "Orange Blossom Bliss Matte Canvas Print| 20' by 24' ",
-    "price" : " GHC 150.00 "
+    "price" : " GHC 150.00 ",
+    "largeDescription": "Orange Bliss Bloom is an abstract painting that features vibrant shades of orange, yellow, and white. The composition is dynamic and energetic, with sweeping brushstrokes and bold, gestural marks that create a sense of movement and flow. The orange color dominates the canvas, creating a warm and inviting atmosphere, while the yellow and white accents add a sense of lightness and joy. The painting evokes feelings of bliss and happiness, and it would make a great addition to any room in need of a burst of color and energy. Overall, Orange Bliss Bloom is a beautiful and powerful painting that will bring joy and inspiration to anyone who sees it"
 
 
 },
 
 {
+    "id": 5,
     "image":"assets/images/shop-products/hercules.jpg",
     "name" : "Hercules- A symbol of strength ",
     "category" : "Abstract",
     "description" : "|Hercules| A symbol of strength - Matte Canvas Print | 20' by 24' ",
-    "price" : " GHC 150.00 "
+    "price" : " GHC 150.00 ",
+    "largeDescription": "Hercules- A symbol of strength is a powerful and majestic painting that captures the essence of courage and physical power. The painting depicts the Greek demigod Hercules, known for his incredible strength and bravery, as he stands tall and proud, dressed in lion-skin and holding a club. The colors used in the painting are bold and striking, with deep, rich tones that reflect Hercules's strength and power. The brushstrokes are confident and precise, giving the painting a sense of grandeur and majesty. The overall composition creates a sense of awe and reverence for the hero. The title Hercules- A symbol of strength perfectly encapsulates the sense of power and courage that the painting conveys. It would be a perfect addition to any room in need of a touch of strength and inspiration"
+    
+
 
 
 },
 
 {
+    "id": 6,
     "image":"assets/images/shop-products/cloud.jpg",
     "name" : "Cloud 9 | The hammock ambience ",
     "category" : "Abstract",
     "description" : "Cloud 9 | The hammock ambience| 20' by 24' ",
-    "price" : " GHC 150.00 "
-
+    "price" : " GHC 150.00 ",
+    "largeDescription": "Cloud 9 is a beautiful and serene painting that captures the essence of relaxation and tranquility. The focal point of the painting is a hammock suspended between two palm trees, with the background featuring fluffy white clouds and a clear blue sky. The colors used in the painting are soft and muted, creating a calming atmosphere. The viewer can almost feel the gentle sway of the hammock and hear the sound of the leaves rustling in the breeze. The painting evokes a sense of being on a tropical island, away from the stresses of everyday life, and the title The hammock ambience perfectly captures this feeling. It would be a perfect addition to any room in need of a touch of serenity"
 
 },
 {
+    "id": 7,
     "image":"assets/images/shop-products/chaos.jpg",
     "name" : "Chaos or Beauty ",
     "category" : "Abstract",
     "description" : "Chaos or Beauty - Matte Canvas Print| 20' by 24' ",
-    "price" : " GHC 150.00 "
+    "price" : " GHC 150.00 ",
+    "largeDescription": "Chaos or Beauty is an abstract painting that features two cars in a collision. The cars are rendered in a dynamic and chaotic manner, with bold brushstrokes and a bold use of color. The color palette is vibrant and intense, with shades of red, orange, and yellow dominating the canvas. The cars are depicted in a state of destruction and disarray, but the abstract nature of the painting allows for interpretation of whether the scene is one of chaos or beauty. The title Chaos or Beauty leaves it open to the viewer to decide what they see in the painting, whether it's destruction or an artful representation of an impact. The painting would be a great addition to any room with a modern or contemporary design, as it adds an edgy and thought-provoking element to the space"
+
 
 
 }, 
 
 {
+    "id": 8,
     "image":"assets/images/shop-products/zues.jpg",
     "name" : "Power of Zeus ",
     "category" : "Abstract",
     "description" : "Power of Zeus : The mind is the Greatest Asset- Matte Canvas Print| 20' by 24' ",
-    "price" : " GHC 150.00 "
+    "price" : " GHC 150.00 ",
+    "largeDescription":"Power of Zeus is a grand and majestic painting that captures the essence of power and authority. The painting depicts the Greek god Zeus, ruler of the gods and the sky, known for his thunderbolts and powerful storms. He is depicted in a powerful stance, with a confident and commanding expression on his face. He is dressed in regal clothing and adorned with symbols of his authority, such as a thunderbolt and eagle. The colors used in the painting are bold and striking, with deep, rich tones that reflect Zeus's power and authority. The brushstrokes are confident and precise, giving the painting a sense of grandeur and majesty. The overall composition creates a sense of awe and reverence for the god. The title Zeus perfectly encapsulates the sense of power and authority that the painting conveys. It would be a perfect addition to any room in need of a touch of grandeur and majesty"
+
 
 
 }, 
 {
+    "id": 9,
     "image":"assets/images/shop-products/unspoken.jpg",
     "name" : "Unspoken Plea ",
     "category" : "Abstract",
     "description" : "Unspoken Plea : The worship of silence - Matte Canvas Print| 20' by 24' ",
-    "price" : " GHC 150.00 "
-
+    "price" : " GHC 150.00 ",
+    "largeDescription": "Unspoken Plea is a powerful and evocative painting that captures the emotions of vulnerability and longing. The painting depicts a figure, hunched over, with their head in their hands, with a look of despair and longing on their face. The colors used in the painting are muted, with a subdued palette that reflects the somber mood of the scene. The brushstrokes are loose, giving the painting a sense of movement and emotion. The use of light and shadow adds depth to the painting, and the overall composition creates a sense of isolation and vulnerability. The title Unspoken Plea perfectly encapsulates the sense of longing and despair that the painting conveys. It would be a powerful addition to any room in need of a reminder of the human condition and the need for empathy"
 
 }, 
 {
+    "id": 10,
     "image":"assets/images/shop-products/sinking.jpg",
     "name" : "Sinking Dreams ",
     "category" : "Abstract",
     "description" : "Sinking Dreams : The cluster of dark thoughts - Matte Canvas Print| 20' by 24' ",
-    "price" : " GHC 150.00 "
+    "price" : " GHC 150.00 ",
+    "largeDescription":" Sinking Dreams is a thought-provoking and evocative painting that explores the theme of disappointment and lost aspirations. The painting depicts a figure standing on a boat, as it sinks into the water, surrounded by a stormy sea. The figure is depicted with a look of resignation and despair on their face, as if they have given up on their dreams. The colors used in the painting are dark and moody, with shades of grey and blue that reflect the somber mood of the scene. The brushstrokes are loose and expressive, giving the painting a sense of movement and emotion. The use of light and shadow adds depth to the painting, and the overall composition creates a sense of hopelessness and despair. The title Sinking Dream perfectly encapsulates the sense of disappointment and lost aspirations that the painting conveys. It would be a powerful addition to any room in need of a reminder of the fragility of our aspirations and the importance of resilience."
+    
 
 
 }, 
 
 {
+    "id": 11,
     "image":"assets/images/shop-products/cube.jpeg",
     "name" : "Rubik's Glee ",
     "category" : "Abstract",
     "description" : "Rubik's Glee - Matte Canvas Print| 20' by 24' ",
-    "price" : " GHC 150.00 "
+    "price" : " GHC 150.00 ",
+    "largeDescription":"Rubik's Glee is a playful and colorful painting that captures the essence of joy and satisfaction. The painting depicts a person holding a solved Rubik's cube, with a wide smile on their face, and the background is filled with different shades of colors that relates to the colors of the cube. The colors used in the painting are bright and vibrant, creating a feeling of happiness and excitement. The brushstrokes are loose and dynamic, giving the painting a sense of movement and energy. The use of light and shadow adds depth to the painting, and the overall composition creates a sense of satisfaction and accomplishment. The title Rubik's Glee perfectly encapsulates the sense of joy and accomplishment that the painting conveys. It would be a perfect addition to any room in need of a touch of playfulness and color."
 
 
 },
 {
+    "id": 12,
     "image":"assets/images/shop-products/city.jpeg",
     "name" : "Chrome City ",
     "category" : "Abstract",
     "description" : "Chrome City : Matte Canvas Print| 20' by 24' ",
-    "price" : " GHC 150.00 "
+    "price" : " GHC 150.00 ",
+    "largeDescription":"Chrome City is a futuristic and striking painting that captures the essence of technology and urbanization. The painting depicts a bustling metropolis, with towering skyscrapers, neon lights, and advanced technology. The city is rendered in shades of silver and gray, with a gleaming, metallic sheen that gives the painting a sense of futuristic, high-tech vibes. The brushstrokes are precise and geometric, giving the painting a sense of structure and order. The use of light and shadow adds depth to the painting, and the overall composition creates a sense of energy and activity. The title Chrome City perfectly encapsulates the sense of technology and urbanization that the painting conveys. It would be a perfect addition to any room in need of a touch of futurism and modernity."
 
 
 }

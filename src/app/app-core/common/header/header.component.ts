@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CartService } from 'src/app/services/cart.service';
 
 @Component({
   selector: 'app-header1',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  cartProducts;
 
-  ngOnInit(): void {
+  constructor(private cartService: CartService) {
+    this.cartProducts = cartService.myData$;
+  }
+
+  ngOnInit() {
+    this.cartService.getCartProducts();
+  }
+
+  cartIsNotEmpty() {
+    return !this.cartService.isCartEmpty();
+  }
+
+  clearCart() {
+    this.cartService.clearCart();
   }
 
 }

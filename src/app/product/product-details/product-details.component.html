@@ -7,32 +7,32 @@
             <div class="row">
               <div class="col-md-9">
                 <div class="product-single-image">
-                  <img alt="image" src="assets/images/shop-products/Orange.jpg" />
+                  <img alt="image" src="{{product?.image}}" />
                 </div>
 
                 <div class="product-single-info">
-                  <h3 class="product-single-title">Orange Bloom Bliss </h3>
+                  <h3 class="product-single-title">{{product?.name}}</h3>
                   <div class="star-rating">
                       <span style="width:90%">Rated
                           <strong class="rating">4.50</strong>
                           out of 5</span>
                   </div>
                       <span class="shop-price">
-                         <span>GHC</span>150.00
+                         {{product?.price}}
                       </span>
-                    <p>Orange Blossom Bliss Matte Canvas Print| 20' by 24' </p>
+                    <p>{{product.description}}</p>
                         <div class="shop-qty">
                             <button class="minus"></button>
                                 <input type="number" step="1" min="1" max="50" name="quantity" value="1" title="number" size="4" class="qty">
                             <button class="plus"></button>
                         </div>
-                      <a class="button-product" href="#">Add to cart</a>
+                      <a class="button-product" (click)="addProductToCart(product)">Add to cart</a>
                     
                 </div>
 
                 <div class="product-single-box">
                   <h2>DESCRIPTION</h2>
-                  Orange Blossom Bliss" is a vibrant and striking painting that captures the essence of springtime and the beauty of nature. The canvas is filled with lush orange blossom flowers, their petals unfurling in full bloom. The colors are a harmonious blend of oranges, pinks, and whites, creating a sense of warmth and joy. The brushstrokes are loose and impressionistic, giving the painting a sense of movement and energy. The composition is balanced and well-designed, drawing the viewer's eye in and inviting them to take in the beauty of the scene. Overall, "Orange Blossom Bliss" is a stunning piece that would be a perfect addition to any room looking to add a touch of color and serenity
+                 {{product.largeDescription || ''}}
                 </div>
 
                 <div class="product-related-products">

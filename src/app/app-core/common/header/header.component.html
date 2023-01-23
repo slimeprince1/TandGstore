@@ -9,9 +9,9 @@
 
          <!-- shop cart -->
          <div class="cart-container">
-            <div class="icon-cart">
+            <div class="icon-cart" routerLink="checkout">
               <i class="icon-ecommerce-bag"></i>
-              <span class="cart-count">0</span> 
+              <span class="cart-count">{{(cartProducts | async)?.length}}</span> 
             </div>
             
          </div>
