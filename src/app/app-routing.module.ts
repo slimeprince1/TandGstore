@@ -43,7 +43,19 @@ const appRoute: Routes = [
   {path:'home', component:HomepageComponent },
   {path:'contact', component:ContactComponent},
   {path:'portfolio', component:HomepageComponent},
-  {path:'shop',component:ProductListingComponent}
+  {path:'shop',component:ProductListingComponent},
+  {path:'random',component:RandomStreetComponent},
+  {path:'melanin',component:MellaninComponent},
+  {path:'tangled',component:TangledComponent},
+  {path:'mirrors',component:MirrorGallonsComponent},
+  {path:'veiled',component:VeildOppressionComponent},
+  {path:'hidden',component:HiddenRoseComponent}, 
+  {path:'chief',component:ChiefGuardComponent}, 
+  {path:'beraku',component:CastleBerakuComponent},
+  {path:'mono',component:MonochromeLabourComponent},
+  {path:'rawlings',component:RandomStreetComponent},
+
+
 ]
 
 @NgModule({
@@ -58,4 +70,5 @@ const appRoute: Routes = [
   exports: [
     RouterModule]
 })
+
 export class AppRoutingModule { }

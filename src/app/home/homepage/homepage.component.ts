@@ -19,19 +19,57 @@ export class HomepageComponent implements OnInit {
     // }
    
   }
-
-  ngAfterInit() {
-    setReloadStatus(false);
+  melaninClick(){
+    this.router.navigate(['/melanin'])
   }
 
-  ngOnDestroy() {
-    setReloadStatus(true)
+  tangledClick(){
+    this.router.navigate(['/melanin'])
   }
 
-  reloadCurrentRoute() {
-    const currentUrl = this.router.url;
-    this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
-      this.router.navigate([currentUrl]);
-    });
+  mirrorClick(){
+    this.router.navigate(['/mirror'])
   }
+
+  veiledClick(){
+    this.router.navigate(['/veiled'])
+  }
+
+hiddenClick(){
+    this.router.navigate(['/hidden'])
+  }
+
+chiefClick(){
+  this.router.navigate(['/chief'])
+}
+berakuClick(){
+  this.router.navigate(['/beraku'])
+}
+
+monoClick(){
+  this.router.navigate(['/mono'])
+  }
+
+rawlingsClick(){
+   this.router.navigate(['/rawlings'])
+  }
+
+
+
+
+
+  // ngAfterInit() {
+  //   setReloadStatus(false);
+  // }
+
+  // ngOnDestroy() {
+  //   setReloadStatus(true);
+  // }
+
+  // reloadCurrentRoute() {
+  //   const currentUrl = this.router.url;
+  //   this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+  //     this.router.navigate([currentUrl]);
+  //   });
+  // }
 }

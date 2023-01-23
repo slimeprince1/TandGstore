@@ -33,6 +33,16 @@ import { RandomStreetComponent } from './webpages/random-street/random-street.co
 import { AboutComponent } from './webpages/about/about.component';
 import { ContactComponent } from './webpages/contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ChaosProductComponent } from './product/chaos-product/chaos-product.component';
+import { DividedMajestyComponent } from './product/divided-majesty/divided-majesty.component';
+import { IntertwinedComponent } from './product/intertwined/intertwined.component';
+import { ConcealedComponent } from './product/concealed/concealed.component';
+import { UnspokenComponent } from './product/unspoken/unspoken.component';
+import { SinkingdetailsComponent } from './product/sinkingdetails/sinkingdetails.component';
+import { ZuesDetailsComponent } from './product/zues-details/zues-details.component';
+import { RubikComponent } from './product/rubik/rubik.component';
+import { CityChromeComponent } from './product/city-chrome/city-chrome.component';
+import { HerculesDetailsComponent } from './product/hercules-details/hercules-details.component';
 
 
 
@@ -66,7 +76,17 @@ import { AppRoutingModule } from './app-routing.module';
     MonochromeLabourComponent,
     RandomStreetComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    ChaosProductComponent,
+    DividedMajestyComponent,
+    IntertwinedComponent,
+    ConcealedComponent,
+    UnspokenComponent,
+    SinkingdetailsComponent,
+    ZuesDetailsComponent,
+    RubikComponent,
+    CityChromeComponent,
+    HerculesDetailsComponent
   ],
   imports: [
     BrowserModule,
